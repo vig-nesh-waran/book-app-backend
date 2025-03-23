@@ -9,7 +9,7 @@ connectDB();
 
 const app = express();
 app.use(cors({
-    origin: "https://bookbaazaar.netlify.app/", // Allow your frontend URL
+    origin: "https://bookbaazaar.netlify.app", // Allow your frontend URL
     methods: "GET,POST,PUT,DELETE",
     credentials: true
   }));
